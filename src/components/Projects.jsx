@@ -1,6 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
 import { projects } from "../data/projects";
-import { initials } from "../utils/initials";
 
 export default function Projects() {
   const { language, t } = useLanguage();
@@ -17,8 +16,14 @@ export default function Projects() {
           {projects.map((project) => {
             const name = language === "ar" ? project.nameAr : project.nameEn;
             return (
-              <article key={project.nameEn} className="card">
-                <div className="project-visual">{initials(name)}</div>
+              <article key={project.id} className="card">
+                <div className="project-visual">
+                  <img
+                    src={project.logo}
+                    alt={name}
+                    className={`project-logo${project.logoClass ? ` ${project.logoClass}` : ""}`}
+                  />
+                </div>
                 <h3>{name}</h3>
               </article>
             );
