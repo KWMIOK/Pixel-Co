@@ -1,102 +1,20 @@
-import apcLogo from "../assets/projects/APC.png";
-import arabianOudLogo from "../assets/projects/ArabianOud.png";
-import azLogo from "../assets/projects/AZ.png";
-import biolabLogo from "../assets/projects/biolab.png";
-import catrionLogo from "../assets/projects/catrion.png";
-import gizLogo from "../assets/projects/GIZ.png";
-import ifcLogo from "../assets/projects/IFC.png";
-import jpmcLogo from "../assets/projects/JPMC.png";
-import kemapcoLogo from "../assets/projects/kemapco.png";
-import maadenLogo from "../assets/projects/maaden.png";
-import msdLogo from "../assets/projects/msd.png";
-import novartisLogo from "../assets/projects/novartis.png";
-import rocheLogo from "../assets/projects/Roche.png";
-import unicefLogo from "../assets/projects/unicef.png";
-
 export const projects = [
+  { nameEn: "Biolab Social Media", nameAr: "سوشال ميديا بايولاب" },
+  { nameEn: "Catrion ESG Report", nameAr: "تقرير الاستدامة Catrion" },
+  { nameEn: "KEMAPCO", nameAr: "كيمابكو" },
   {
-    id: "apc",
-    logo: apcLogo,
-    nameEn: "Arab Potash",
-    nameAr: "البوتاس العربية",
+    nameEn: "Maaden Sustainability Report Arabic & English",
+    nameAr: "تقرير استدامة معادن عربي وانجليزي",
   },
+  { nameEn: "APC Sustainability Report 2024", nameAr: "تقرير استدامة APC 2024" },
+  { nameEn: "UNICEF - School Health Manual", nameAr: "اليونيسف - دليل صحة المدارس" },
   {
-    id: "arabian-oud",
-    logo: arabianOudLogo,
-    nameEn: "Arabian Oud",
-    nameAr: "Arabian Oud",
+    nameEn: "Musharbash Exchange - Campaign TVC",
+    nameAr: "مشربش للصرافة - اعلان الحملة",
   },
-  {
-    id: "astrazeneca",
-    logo: azLogo,
-    nameEn: "AstraZeneca",
-    nameAr: "AstraZeneca",
-  },
-  {
-    id: "biolab",
-    logo: biolabLogo,
-    nameEn: "Biolab",
-    nameAr: "Biolab",
-  },
-  {
-    id: "catrion",
-    logo: catrionLogo,
-    nameEn: "Catrion",
-    nameAr: "Catrion",
-  },
-  {
-    id: "giz",
-    logo: gizLogo,
-    nameEn: "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
-    nameAr: "GIZ",
-  },
-  {
-    id: "ifc",
-    logo: ifcLogo,
-    nameEn: "International Finance Corporation",
-    nameAr: "مؤسسة التمويل الدولية",
-  },
-  {
-    id: "jpmc",
-    logo: jpmcLogo,
-    logoClass: "project-logo--compact",
-    nameEn: "Jordan Phosphate Mines Co",
-    nameAr: "شركة مناجم الفوسفات الأردنية",
-  },
-  {
-    id: "kemapco",
-    logo: kemapcoLogo,
-    nameEn: "KEMAPCO",
-    nameAr: "KEMAPCO",
-  },
-  {
-    id: "maaden",
-    logo: maadenLogo,
-    nameEn: "MAADEN",
-    nameAr: "معادن",
-  },
-  {
-    id: "msd",
-    logo: msdLogo,
-    nameEn: "Merck Sharp & Dohme",
-    nameAr: "Merck Sharp & Dohme",
-  },
-  {
-    id: "novartis",
-    logo: novartisLogo,
-    nameEn: "Novartis",
-    nameAr: "Novartis",
-  },
-  {
-    id: "roche",
-    logo: rocheLogo,
-    nameEn: "Roche",
-    nameAr: "Roche",
-  },
-  {
-    id: "unicef",
-    logo: unicefLogo,
-    nameEn: "UNICEF",
-    nameAr: "اليونيسف",
-  },
+  { nameEn: "Global Tribes - Ui/Ux", nameAr: "جلوبال ترايبس - واجهة وتجربة المستخدم" },
+  { nameEn: "The Aqaba Heritage (JREDS)", nameAr: "تراث العقبة (JREDS)" },
+  { nameEn: "Jeep Wrangler - Teaser", nameAr: "جيب رانجلر - اعلان تشويقي" },
+  { nameEn: "Book in Play Room", nameAr: "كتاب في غرفة اللعب" },
+  { nameEn: "events-AVP", nameAr: "فعاليات AVP" },
 ];
