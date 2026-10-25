@@ -308,7 +308,7 @@ export const projects = [
   {
     id: "unicef1",
     nameEn: "UNICEF | Private Sector Engagement In Immunization",
-    nameAr: "اليونيسف — مشاركة القطاع الخاص في برامج التحصين واللقاحات",
+    nameAr: " — مشاركة القطاع الخاص في برامج التحصين واللقاحات",
     thumbnail: unicefPrivateSectorEngagementInImmunizationModules['../assets/projects/UNICEF-PrivateSectorEngagementInImmunization/image1.jpeg'],
     gallery: [
       unicefPrivateSectorEngagementInImmunizationModules['../assets/projects/UNICEF-PrivateSectorEngagementInImmunization/image2.jpeg'],
