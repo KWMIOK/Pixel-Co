@@ -1,15 +1,20 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-const slides = ["visual-1", "visual-2", "visual-3"];
+const slides = [
+  { id: "slide-1", src: "/assets/Carousel/Carousel1.jpeg", alt: "Carousel Image 1" },
+  { id: "slide-2", src: "/assets/Carousel/Carousel2.jpeg", alt: "Carousel Image 2" },
+  { id: "slide-3", src: "/assets/Carousel/Carousel3.jpeg", alt: "Carousel Image 3" },
+];
+
 const INTERVAL_MS = 4500;
 const START_INDEX = 1;
 
 export default function HeroVisuals() {
   const extendedSlides = useMemo(
     () => [
-      { id: "clone-start", className: slides[slides.length - 1] },
-      ...slides.map((className) => ({ id: className, className })),
-      { id: "clone-end", className: slides[0] },
+      { ...slides[slides.length - 1], id: "clone-start" },
+      ...slides,
+      { ...slides[0], id: "clone-end" },
     ],
     [],
   );
@@ -62,9 +67,11 @@ export default function HeroVisuals() {
           >
             {extendedSlides.map((slide, index) => (
               <div
-                key={slide.id}
-                className={`visual-card ${slide.className}${index === trackIndex ? " is-active" : ""}`}
-              />
+                key={`${slide.id}-${index}`}
+                className={`visual-card${index === trackIndex ? " is-active" : ""}`}
+              >
+                <img src={slide.src} alt={slide.alt} className="carousel-img" />
+              </div>
             ))}
           </div>
         </div>
