@@ -1,9 +1,13 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
+import carousel1 from "../assets/Carousel/Carousel1.jpeg";
+import carousel2 from "../assets/Carousel/Carousel2.jpeg";
+import carousel3 from "../assets/Carousel/Carousel3.jpeg";
+
 const slides = [
-  { id: "slide-1", src: "/assets/Carousel/Carousel1.jpeg", alt: "Carousel Image 1" },
-  { id: "slide-2", src: "/assets/Carousel/Carousel2.jpeg", alt: "Carousel Image 2" },
-  { id: "slide-3", src: "/assets/Carousel/Carousel3.jpeg", alt: "Carousel Image 3" },
+  { id: "slide-1", src: carousel1, alt: "Carousel Image 1" },
+  { id: "slide-2", src: carousel2, alt: "Carousel Image 2" },
+  { id: "slide-3", src: carousel3, alt: "Carousel Image 3" },
 ];
 
 const INTERVAL_MS = 4500;
