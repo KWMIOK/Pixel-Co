@@ -19,7 +19,7 @@ export default function Toolkit() {
         <div className="toolkit-grid">
           {toolkitItems.map(({ titleKey, imageKey }) => (
             <article key={titleKey} className="toolkit-card">
-              <img src={`src/assets/projects/Icons/${imageKey}.png`} alt={t[titleKey]} className="services-icons" />
+              <img src={`/assets/projects/Icons/${imageKey}.png`} alt={t[titleKey]} className="services-icons" />
               <h3>{t[titleKey]}</h3>
             </article>
           ))}
