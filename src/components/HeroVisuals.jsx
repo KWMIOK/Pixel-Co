@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-import carousel1 from "../assets/Carousel/Carousel1.jpeg";
-import carousel2 from "../assets/Carousel/Carousel2.jpeg";
-import carousel3 from "../assets/Carousel/Carousel3.jpeg";
+import carousel1 from "../assets/Carousel/Carousel1.png";
+import carousel2 from "../assets/Carousel/Carousel2.png";
+import carousel3 from "../assets/Carousel/Carousel3.png";
 
 const slides = [
   { id: "slide-1", src: carousel1, alt: "Carousel Image 1" },
